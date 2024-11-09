@@ -84,7 +84,7 @@ export default function Home() {
           <Image
             className="mx-auto text-white mb-4"
             src="/svg/lock-square-rounded.svg"
-            alt="HTTP3 logo"
+            alt="Dwebify"
             width={70}
             height={38}
             priority
