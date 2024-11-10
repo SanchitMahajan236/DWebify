@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-
+import { ModeToggle } from "@/components/mode-toggle";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -77,12 +77,12 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           <Image
             src="/svg/lock-square-rounded.svg"
-            alt="Dwebify logo"
+            alt="DWebify logo"
             width={40}
             height={40}
             priority
           />
-          <span className="ml-2 text-xl font-bold">HTTP3</span>
+          <span className="ml-2 text-xl font-bold">DWebify</span>
         </Link>
         <div className="hidden md:flex items-center space-x-4">
           <Link
@@ -130,7 +130,7 @@ export default function Navbar() {
               </DropdownMenuContent>
             </DropdownMenu>
           )}
-          {/* <ModeToggle /> */}
+          <ModeToggle />
         </div>
         <div className="md:hidden">
           <Button
@@ -184,7 +184,7 @@ export default function Navbar() {
                   </Link>
                 </>
               )}
-              {/* <ModeToggle /> */}
+              <ModeToggle />
             </div>
           </div>
         )}

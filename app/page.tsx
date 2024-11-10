@@ -133,7 +133,7 @@ export default function Home() {
         </main>
 
         <footer className="mt-16 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 HTTP3. All rights reserved.</p>
+          <p>&copy; 2024 DWebify. All rights reserved.</p>
         </footer>
       </div>
     </ThemeProvider>
